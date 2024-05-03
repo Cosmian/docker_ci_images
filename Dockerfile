@@ -29,6 +29,7 @@ RUN pip3 install --upgrade pip \
     mkdocs-kroki-plugin \
     mkdocs-markmap \
     mkdocs-meta-descriptions-plugin \
+    mkdocs-mermaid2-plugin \
     markdown-katex \
     git+https://gitlab.com/myriacore/pandoc-kroki-filter.git \
     git+https://github.com/twardoch/mkdocs-combine.git \
@@ -41,4 +42,3 @@ RUN pydoc-markdown --version \
 
 HEALTHCHECK --interval=5m --timeout=3s \
     CMD curl -f http://localhost/ || exit 1
-
