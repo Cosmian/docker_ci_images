@@ -21,6 +21,7 @@ RUN pip3 install --upgrade pip \
     && pip3 install --no-build-isolation 'PyYAML==6.0' \
     && pip3 install \
     mkdocs \
+    mkdocs-caption \
     mkdocs-material \
     mkdocs-merge \
     pydoc-markdown \
